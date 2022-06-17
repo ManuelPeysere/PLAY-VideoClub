@@ -1,0 +1,19 @@
+{
+  "name": "play-videoclub",
+  "version": "1.0.0",
+  "description": "Proyecto final CoderHouse curso JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelPeysere/PLAY-VideoClub.git"
+  },
+  "author": "Manuel Peysere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelPeysere/PLAY-VideoClub/issues"
+  },
+  "homepage": "https://github.com/ManuelPeysere/PLAY-VideoClub#readme"
+}
