@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionBusqueda {
+    background-image: linear-gradient(to bottom,  #211363, #4A6AF0);
+    padding: 3%;
+    margin-top: 2%;
+    width: 80%;
+    
+    & h3 {
+        font-size: 170%;
+        color: white;
+    }
+
+    & input {
+        width: 80%;
+        height: 30px;
+    }
+
+    & button {
+        width: 20%;
+        font-size: 120%;
+        padding: 1%;
+        color: white;
+        background-image: linear-gradient(to bottom, #ffd405 , #e5232c);
+        border: none;
+        margin-top: 1%;
+    }
+}
+.inputButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
