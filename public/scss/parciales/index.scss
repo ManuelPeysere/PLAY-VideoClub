@@ -72,6 +72,10 @@
         margin-right: 3%;
     }
 
+    & img:hover {
+        transform: scale(1.1);
+    }
+
     & div h5 {
         font-size: 150%;
     }
