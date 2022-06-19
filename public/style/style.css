@@ -229,6 +229,10 @@
   .peliculas {
     width: 90%;
   }
+  .cart {
+    width: 100%;
+    margin-top: 20%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
