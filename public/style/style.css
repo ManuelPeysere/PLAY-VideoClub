@@ -57,9 +57,12 @@
 .cart h6 {
   font-size: 140%;
   margin-top: 2%;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
   color: #211363;
   font-weight: bold;
+  border-bottom: solid 2px #e5232c;
+  width: 80%;
+  text-align: center;
 }
 .cart section {
   display: flex;
@@ -67,10 +70,50 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3%;
+  padding: 2%;
   width: 80%;
+  box-shadow: 11px 15px 5px 0px rgba(0, 0, 0, 0.16);
 }
 .cart section img {
   width: 15%;
+}
+.cart button {
+  font-size: 110%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-bottom: 2%;
+  color: white;
+  background-image: linear-gradient(to bottom, #ffd405, #e5232c);
+  border: none;
+  margin-top: 1%;
+  cursor: pointer;
+}
+.cart a {
+  text-decoration: none;
+  font-size: 110%;
+  color: black;
+  margin-bottom: 2%;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 3%;
+  padding: 2%;
+  width: 80%;
+  box-shadow: 11px 15px 5px 0px rgba(0, 0, 0, 0.16);
+}
+.price p {
+  font-size: 110%;
+  margin-bottom: 1%;
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
 }
 
 * {
