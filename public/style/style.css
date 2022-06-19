@@ -20,6 +20,31 @@
   font-size: 150%;
 }
 
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+.footer p {
+  color: white;
+  font-size: 120%;
+}
+.footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+}
+.footer a {
+  color: white;
+  transform: scale(1.5);
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -45,19 +70,23 @@
 .sectionBusqueda h3 {
   font-size: 170%;
   color: white;
+  margin-bottom: 2%;
 }
 .sectionBusqueda input {
   width: 80%;
   height: 30px;
+  text-align: center;
 }
 .sectionBusqueda button {
-  width: 20%;
   font-size: 120%;
-  padding: 1%;
   color: white;
   background-image: linear-gradient(to bottom, #ffd405, #e5232c);
   border: none;
   margin-top: 1%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .inputButton {
@@ -107,6 +136,18 @@
   border: none;
   margin-top: 1%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .product {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .peliculas {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@media screen and (max-width:800px) {
+    .product {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .peliculas {
+        width: 90%;
+    }
+}
