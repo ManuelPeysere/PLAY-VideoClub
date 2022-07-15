@@ -1,0 +1,82 @@
+[
+    {
+        "id": "0",
+        "titulo": "La lista final",
+        "descripcion": "El comandante James Reece quiere venganza, mientras investiga las misteriosas fuerzas que hay tras la muerte de todo su pelotón. Ya lejos de la estructura jerárquica del ejército, Reece aplica las lecciones que aprendió durante casi dos décadas de guerra para cazar a los responsables.",
+        "categoria": "Action y Adventure, Drama",
+        "duracion": "1h",
+        "precio": "2750",
+        "director": "Chris Pratt",
+        "img": "./image/laListaFinal.jpg"
+    },
+    {
+        "id": "1",
+        "titulo": "Animales fantásticos: Los secretos de Dumbledore",
+        "descripcion": "El profesor Albus Dumbledore sabe que el poderoso mago oscuro Gellert Grindelwald está haciendo planes para apoderarse del mundo mágico.",
+        "categoria": "Fantasía, Aventura, Acción",
+        "duracion": "2h 23min",
+        "precio": "5400",
+        "director": "David Yates",
+        "img": "./image/losSecretosDeDumbledore.jpg"
+    },
+    {
+        "id": "2",
+        "titulo": "La ira de Dios",
+        "descripcion": "Convencida de que las extrañas muertes de sus familiares fueron orquestadas por un novelista para quien trabajaba, Luciana recurre a un periodista para exponer su verdad.",
+        "categoria": "Suspenso, drama",
+        "duracion": "1h 38min",
+        "precio": "4200",
+        "director": "Sebastián Schindel",
+        "img": "./image/laIraDeDios.jpg"
+    },
+    {
+        "id": "3",
+        "titulo": "Crímenes del futuro",
+        "descripcion": "En un futuro no muy lejano la humanidad está aprendiendo a adaptarse a su entorno sintético, en un mundo donde no existe el dolor. Esta evolución lleva a los humanos más allá de su estado natural y hacia una metamorfosis, alterando su estructura biológica.",
+        "categoria": "Drama, Terror, Ciencia ficción",
+        "duracion": "1h 47min",
+        "precio": "3400",
+        "director": "David Cronenberg",
+        "img": "./image/crimenesOfTheFuture.jpg"
+    },
+    {
+        "id": "4",
+        "titulo": "Competencia oficial ",
+        "descripcion": "Dos actores de muy diferentes trayectorias chocarán por sus métodos contrapuestos durante la preparación de una película financiada por un millonario ávido de notoriedad y dirigida por una prestigiosa y algo excéntrica directora.",
+        "categoria": "Comedia",
+        "duracion": "1h 54min",
+        "precio": "2800",
+        "director": "Mariano Cohn",
+        "img": "./image/ComptenciaOficial.jpg"
+    },
+    {
+        "id": "5",
+        "titulo": "El abismo",
+        "descripcion": "Después de que Kelly captura el asesinato de su mejor amiga en cámara, se convierte en el próximo objetivo de un grupo muy unido de amigos que no se detendrán ante nada para destruir la evidencia y a cualquiera que se interponga en su camino.",
+        "categoria": "Suspenso",
+        "duracion": "1h 26min",
+        "precio": "1900",
+        "director": "Howard J. Ford",
+        "img": "./image/elAbismo.jpg"
+    },
+    {
+        "id": "6",
+        "titulo": "La memoria de un asesino",
+        "descripcion": "Alex, un asesino a sueldo, descubre que se ha convertido en un objetivo después de que se niega a completar un trabajo para una peligrosa organización criminal.",
+        "categoria": "Acción, Suspenso, Crimen",
+        "duracion": "1h 54min",
+        "precio": "2800",
+        "director": "Martin Campbell",
+        "img": "./image/memoriaDeUnAsesino.jpg"
+    },
+    {
+        "id": "7",
+        "titulo": "El experimento",
+        "descripcion": "Un grupo de 26 hombres son sometidos a una investigación psiquiátrica con roles de prisionero y guardián, pero el estudio finalmente no se desarrollará como pensaban y acabará en el caos.",
+        "categoria": "Suspenso, drama",
+        "duracion": "1h 36min",
+        "precio": "3200",
+        "director": "Paul Scheuring",
+        "img": "./image/elExperimento.jpg"
+    }
+]
