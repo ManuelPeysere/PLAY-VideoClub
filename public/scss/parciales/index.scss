@@ -29,6 +29,7 @@
         width: 80%;
         height: 30px;
         text-align: center;
+        cursor: pointer;
     }
 
     & button {
@@ -41,6 +42,7 @@
         padding-right: 8%;
         padding-top: 1%;
         padding-bottom: 1%;
+        cursor: pointer;
     }
 }
 .inputButton {
@@ -52,7 +54,6 @@
 
 .container {
     width: 85%;
-    background-color: red;
 }
 
 #pelis {

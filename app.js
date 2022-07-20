@@ -72,64 +72,50 @@
 // consulta()
 
 
-// let peliculasNuevas =document.querySelector (".peliculasNuevas");
 
-// const disponibles = [
-//     { id: 1, titulo: "Animales fantásticos: Los secretos de Dumbledore", duracion: "2h 23m", precio: 5800 },
-//     { id: 2, titulo: "La ira de Dios", duracion: "1h 38m", precio: 2800 },
-//     { id: 3, titulo: "Crimes of the Future", duracion: "1h 47m", precio: 1700 },
-//     { id: 4, titulo: "Competencia oficial", duracion: "1h 54m", precio: 3200 },
-//     { id: 5, titulo: "El abismo ", duracion: "1h 26m", precio: 2650 },
-//     { id: 6, titulo: "Dog: Un viaje salvaje", duracion: "1h 42m", precio: 1450 },
-//     { id: 7, titulo: "La memoria de un asesino", duracion: "1h 54m", precio: 2270 }];
-
-// for (let peliculas of disponibles) {
-//     let listado =document.createElement("li");
-//     listado.innerHTML= peliculas.titulo + " " + "$"+ peliculas.precio;
-//     peliculasNuevas.appendChild(listado);
-// }
+// const peliculas = document.querySelector(".peliculas");
 
 
-// for (let peliculas of disponibles) {
-//     let precioDOM = document.querySelectorAll(".precio");
-//     console.log(peliculas)
+document.addEventListener("DOMContentLoaded", () =>{
+    console.log("Documento");
+    getData()
+});
 
-//     precioDOM.forEach((target) =>{
-//         target.innerHTML = peliculas.precio
-//     }  )
-//     // precioDOM.innerHTML = peliculas.precio;
-// }
 
-const peliculas = document.querySelector(".peliculas");
-
-function peliculasDisponibles () {
-   fetch("peliculas.json")
-        .then(respuesta => respuesta.json())
-        .then(peliculas => {
-            peliculas.forEach(pelicula => {
-                const ulPelis = document.getElementById('pelis')
-                const li = document.createElement('li')
-                li.innerHTML = `
-                <section class="peliculas">
-                    <img id="img" src="${pelicula.img}" alt="">
-                    <div>
-                        <h5 id="title">${pelicula.titulo}</h5>
-                        <p id="category">${pelicula.categoria}</p>
-                        <p id="time">${pelicula.duracion}</p>
-                        <p id="description">${pelicula.descripcion}</p>
-                        <h6>Creador</h6>
-                        <p id="directorName">${pelicula.director}</p>
-                        <div class="buy">
-                            <p id="price"> Precio: $${pelicula.precio}</p>
-                            <button>Comprar</button>
-                        </div>
-                    </div>
-                </section>`
-               
-                ulPelis.appendChild(li)
-            });
-        })
+const getData = async () => {
+    const response = await fetch("./peliculas.json")
+    const data = await response.json()
+    imprimirPeliculas(data);
 }
 
-peliculasDisponibles()
+const imprimirPeliculas = (data)=> {
+    data.forEach(pelicula => {
+                        const ulPelis = document.getElementById('pelis')
+                        const li = document.createElement('li')
+                        li.innerHTML = `
+                        <section class="peliculas">
+                            <img id="img" src="${pelicula.img}" alt="">
+                            <div>
+                                <h5 id="title">${pelicula.titulo}</h5>
+                                <p id="category">${pelicula.categoria}</p>
+                                <p id="time">${pelicula.duracion}</p>
+                                <p id="description">${pelicula.descripcion}</p>
+                                <h6>Creador</h6>
+                                <p id="directorName">${pelicula.director}</p>
+                                <div class="buy">
+                                    <p id="price"> Precio: $${pelicula.precio}</p>
+                                    <button class="btn" id=${pelicula.id}>Comprar</button>
+                                </div>
+                            </div>
+                        </section>`
+                        ulPelis.appendChild(li)
+                    });
+}
+
+const confirmarCompra = document.querySelector("#confirm");
+confirmarCompra.addEventListener("click", () => {
+    alert("Su compra se ha registrado con éxito")
+})
+
+
 
